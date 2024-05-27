@@ -1,0 +1,21 @@
+{
+  "name": "hydro-dev.github.io",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-webpack": "^2.0.0-rc.2",
+    "@vuepress/plugin-shiki": "^2.0.0-rc.0",
+    "katex": "^0.16.9",
+    "sass-loader": "^14.0.0",
+    "vue": "^3.3.4",
+    "vuepress": "^2.0.0-rc.2",
+    "vuepress-plugin-search-pro": "^2.0.0-rc.16",
+    "vuepress-theme-hope": "^2.0.0-rc.16"
+  },
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {}
+}
